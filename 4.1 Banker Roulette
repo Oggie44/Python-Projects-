@@ -1,0 +1,13 @@
+#Banker Roulette - Using random function to pull an item from a list at random
+
+friends = ["Alice", "Bob", "Charlie", "David", "Emanuel"]
+
+import random
+#Option 1
+
+random_integer = random.randint(0,4)
+#print(random_integer)
+print(friends[random_integer])
+
+#option 2: Print a random list
+print(random.choice(friends))
