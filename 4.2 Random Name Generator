@@ -1,0 +1,9 @@
+#Random name generator (bAsed on Randomly app)
+
+import random
+
+student_name = ["Billy", "Maria", "Daniel", "Davi", "John", "Mimi", "Steph", "Xing", "Luang", "Roger"]
+
+random_name = random.randint(0,9)
+
+print(student_name[random_name])
